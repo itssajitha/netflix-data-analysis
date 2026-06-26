@@ -1,10 +1,10 @@
- Netflix Movies and TV Shows — Exploratory Data Analysis
+# Netflix Movies and TV Shows — Exploratory Data Analysis
 
 A mini data analysis project exploring the Netflix titles dataset using **pandas**, **numpy**, and **matplotlib**. The notebook walks through data inspection, content-type breakdown, upload trends over time, country and genre distributions, and visualization.
 
 ---
 
-Project Structure
+# Project Structure
 
 ```
 .
@@ -15,7 +15,7 @@ Project Structure
 
 ---
 
- Requirements
+# Requirements
 
 - Google Colab *(recommended)*, or Jupyter Notebook / JupyterLab locally
 - Python 3.x
@@ -32,7 +32,7 @@ pip install pandas numpy matplotlib jupyter
 
 ---
 
-Dataset
+# Dataset
 
 The notebook expects a `netflix_titles.csv.zip` file — the Netflix titles dataset with columns such as `show_id`, `type`, `title`, `director`, `cast`, `country`, `date_added`, `release_year`, `rating`, `duration`, `listed_in`, and `description`.
 
@@ -44,7 +44,7 @@ The notebook expects a `netflix_titles.csv.zip` file — the Netflix titles data
 
 ---
 
- What the Notebook Does
+# What the Notebook Does
 
  1. Data Loading & Inspection
 - Extracts `netflix_titles.csv` from the zip archive
@@ -74,7 +74,7 @@ The notebook expects a `netflix_titles.csv.zip` file — the Netflix titles data
 
 ---
 
- How to Run
+# How to Run
 
 1. Open `notebook.ipynb` in [Google Colab](https://colab.research.google.com/)
 2. Upload `netflix_titles.csv.zip` via the Files panel, or mount Google Drive and update the file path
@@ -82,7 +82,7 @@ The notebook expects a `netflix_titles.csv.zip` file — the Netflix titles data
 
 ---
 
- Key Insights
+# Key Insights
 
 - **Movies make up ~70%** of Netflix's catalog, with TV Shows accounting for the remaining ~30%.
 - Netflix saw a **significant content surge from 2016**, peaking around 2019–2020.
